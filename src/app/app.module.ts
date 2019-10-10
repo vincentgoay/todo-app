@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AddItemComponent } from './components/add-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddItemComponent
   ],
   imports: [
     BrowserModule,
