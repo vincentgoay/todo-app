@@ -1,0 +1,19 @@
+.list-row-container {
+    margin: 4px 0px;;
+    border: 1px solid lightgray;
+}
+
+.list-row-container img {
+    height: 100%;
+    width: auto;
+    margin-left: -16px;
+}
+
+.list-content {
+    margin-left: 8px;
+}
+
+.list-content span {
+    word-wrap: break-word;
+    word-break: break-all;
+}

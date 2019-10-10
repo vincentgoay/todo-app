@@ -1,0 +1,12 @@
+<mat-nav-list>
+    <a mat-list-item class="list-row-container no-padding" 
+        [class.mat-elevation-z2]="true"
+        *ngFor="let album of collection, let i = index">
+        <img *ngIf="!album.imageUrl" src="../../assets/photo_placeholder.png">
+        <img *ngIf="album.imageUrl" src="{{ album.imageUrl }}" alt="">
+        <p class="list-content">
+            <span matLine>{{ album.artist }}</span>
+            <span matLine>{{ album.title }}</span>
+        </p>
+    </a>
+</mat-nav-list>
