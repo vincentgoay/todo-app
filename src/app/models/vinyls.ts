@@ -1,6 +1,6 @@
 export interface Vinyls {
-    name: string,
+    title: string,
     artist: string,
-    description: string,
-    imageUrl: string
+    description?: string,
+    imageUrl?: string
 }

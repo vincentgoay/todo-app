@@ -10,11 +10,13 @@ import { AddItemComponent } from './components/add-item.component';
 
 import { MaterialModule } from './material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { VinylsListComponent } from './components/vinyls-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddItemComponent
+    AddItemComponent,
+    VinylsListComponent
   ],
   imports: [
     BrowserModule,
